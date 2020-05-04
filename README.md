@@ -1,29 +1,30 @@
 algorithms
+=========
 improving algorithm skills!
 ========
 
-# Coding Test¸¦ ÁØºñÇÏ±â À§ÇÑ °³ÀÎ ÀúÀå¼Ò
-- 1ÀÏ 1¹®Á¦ ¸ñÇ¥
-- ±âº» ³­ÀÌµµ ºÎÅÍ ½ÃÀÛÇÏ¿© ¿µ¾î, °í³­µµ±îÁö Æ÷°ý
-- ÃÖ´ëÇÑ ºü¸¥ ½Ã°£¿¡ Çª´Â °ÍÀ» ¸ñÇ¥·Î ÁøÇà
-- ¹éÁØ(ÇÑ±Û)
-- Codility(¿µ¹®)
+# Coding Testë¥¼ ì¤€ë¹„í•˜ê¸° ìœ„í•œ ê°œì¸ ì €ìž¥ì†Œ
+- 1ì¼ 1ë¬¸ì œ ëª©í‘œ
+- ê¸°ë³¸ ë‚œì´ë„ ë¶€í„° ì‹œìž‘í•˜ì—¬ ì˜ì–´, ê³ ë‚œë„ê¹Œì§€ í¬ê´„
+- ìµœëŒ€í•œ ë¹ ë¥¸ ì‹œê°„ì— í‘¸ëŠ” ê²ƒì„ ëª©í‘œë¡œ ì§„í–‰
+- ë°±ì¤€(í•œê¸€)
+- Codility(ì˜ë¬¸)
 -----------
 
-## ´ëÇ¥ Ãë¾à À¯Çü ´ëºñ
+## ëŒ€í‘œ ì·¨ì•½ ìœ í˜• ëŒ€ë¹„
 
 - BFS
 - DFS
 - DP
-- °øºÎÇÏ¸é¼­ ÇâÈÄ Ãß°¡ ¿¹Á¤
+- ê³µë¶€í•˜ë©´ì„œ í–¥í›„ ì¶”ê°€ ì˜ˆì •
 
 
 ## Coding Test Mind 
-- °³ÀÎ ³ëÇÏ¿ì ÀÛ¼º ¿¹Á¤
+- ê°œì¸ ë…¸í•˜ìš° ìž‘ì„± ì˜ˆì •
 
 ## Coding Tips
 
-## ÄÚµù½Ã °í·ÁÇØ¾ßÇÒ Á¡
+## ì½”ë”©ì‹œ ê³ ë ¤í•´ì•¼í•  ì 
 
 ---------
 
