@@ -6,5 +6,6 @@
 ### 총 5개의 문제가 존재함
 ========
 
-### 1번 문제 완료.
-### https://tech.kakao.com/2020/04/01/2019-internship-test/여기서 문제 확인 가능
+### 각 문제들은
+### https://tech.kakao.com/2020/04/01/2019-internship-test/
+### 여기서 문제 확인 가능
