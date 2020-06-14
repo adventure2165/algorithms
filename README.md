@@ -32,6 +32,7 @@ improving algorithm skills!
   * 이외 다양한 기능 존재. 필요 취합하면 좋음.
 - Copy 라이브러리또한 사용하면 좋음 Python은 할당을 할때 주소할당을 하기 때문에 똑같은걸 할당한뒤 하나를 변경하면 다른것도 변경되기 때문에 Deepcopy를 통해서 아예 다른 존재로 만들어 줘야 서로 연동이 안됨.
 - Python의 Dictionary는 key와 Value를 동시에 저장하는 기능이 있어서 마치 Node처럼 사용 가능하다. Node의 값 : key의 값, Value : 다음 노드를 나타냄 이렇게 사용가능 하므로 그래프 문제에서 매우 잘 사용할 수 있음.
+- 쉬운 함수 - ord()는 해당 문자의 ASCII값을 반환함. C처럼 바로 int화하면 해당값이 반환되는 것이 아님. 숫자를 ASCII값으로 문자 변환을 원하면 chr()을 쓰면 됨.
 
 
 ## Coding Tips
