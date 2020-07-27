@@ -40,34 +40,36 @@ improving algorithm skills!
 https://programmers.co.kr/learn/courses/11
 
 - What is Enum?
-열거형이라고도 부름. 고유한 상숫값에 연결된 기호 이름(멤버)의 집합. 열거형 내에서, 멤버를 아이덴티티로 비교할 수 있고, 열거형 자체는 이터레이트 될 수 있음.
-우선 import enum을 해주어야 함. 다른 언어랑 다름.
-class Color(Enum): 이렇게 상속을 해서 사용가능
+  * 열거형이라고도 부름. 고유한 상숫값에 연결된 기호 이름(멤버)의 집합. 열거형 내에서, 멤버를 아이덴티티로 비교할 수 있고, 열거형 자체는 이터레이트 될 수 있음.
+  * 우선 import enum을 해주어야 함. 다른 언어랑 다름.
+  * class Color(Enum): 이렇게 상속을 해서 사용가능
 	RED = 1
 	Blue = 2
 	Green = 3
 
-뭐 Color.RED 이렇게 접근 가능.
-for i in Color 사용가능.
-같은 이름의 멤버는 존재할 수 없음. (RED = 1, RED = 2 이건 안됨)
-다른 이름인데 값은 다른건 별칭 개념으로 생각하면 됨.(RED = 1, BBALGANG = 1 이건 됨.)
+  * 뭐 Color.RED 이렇게 접근 가능.
+  * for i in Color 사용가능.
+  * 같은 이름의 멤버는 존재할 수 없음. (RED = 1, RED = 2 이건 안됨)
+  * 다른 이름인데 값은 다른건 별칭 개념으로 생각하면 됨.(RED = 1, BBALGANG = 1 이건 됨.)
 
 - Mutable 과 Immutable
-둘의 차이는 쉽게 예를 들어 설명하면 다음과 같다.
+  * 둘의 차이는 쉽게 예를 들어 설명하면 다음과 같다.
 
-X = abcde
-Y = X
-이렇게 하면 X랑 Y는 같은 값을 가진다.
-근데 Mutable한 것은 
-Y = Y+"f"시
-X = abcdef 가 되어버리는 것이다.
-Immutable은 위의 연산을 하면
-X = abcde
-Y = abcdef
-가 되는 것이다.
-Call by reference에 의해 Y=X와 같이 똑같은것을 할당할 때 아예 새로 만들어 버리는건지, 아니면 주소를 똑같이 해서 가리키는것을 같이 하는건지 차이다.
-리스트, 딕셔너리, set - Mutable
-숫자, 문자열, 튜플 - immutable
+  ```X = abcde```
+  ```Y = X```
+  * 이렇게 하면 X랑 Y는 같은 값을 가진다. 
+  * 근데 Mutable한 것은 
+```Y = Y+"f"```
+```X = abcdef```
+```Y = abcedf(X랑 동일)```
+  * 이렇게 되어버림.
+  * Immutable은 위의 연산을 하면
+```X = abcde```
+```Y = abcdef```
+  * 가 되는 것이다.
+  * Call by reference에 의해 Y=X와 같이 똑같은것을 할당할 때 아예 새로 만들어 버리는건지, 아니면 주소를 똑같이 해서 가리키는것을 같이 하는건지 차이다.
+  * 리스트, 딕셔너리, set - Mutable
+  * 숫자, 문자열, 튜플 - immutable
 
 
 ## 코딩시 고려해야할 점
