@@ -78,6 +78,10 @@ https://programmers.co.kr/learn/courses/11
 ## Commit message 에 대한 팁
 
 - 참조할만한 좋은 링크 https://meetup.toast.com/posts/106
+
+## Unit Test 
+- Mocha : Javascript를 사용하는 Unit test 지원 프레임워크. 코딩테스트 사이트의 결과 보는거랑 같은 기능임.
+  * Python에도 있는거 같은데 찾아보는중.
 ---------
 
 ## Reference Repo
