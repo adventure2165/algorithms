@@ -74,6 +74,10 @@ https://programmers.co.kr/learn/courses/11
 
 ## 코딩시 고려해야할 점
 
+
+## Commit message 에 대한 팁
+
+- 참조할만한 좋은 링크 https://meetup.toast.com/posts/106
 ---------
 
 ## Reference Repo
