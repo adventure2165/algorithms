@@ -39,6 +39,10 @@ improving algorithm skills!
 - 정규식 공부 URL
 https://programmers.co.kr/learn/courses/11
 
+- 정규식 테스트 사이트 : 매우 유용! 정규식을 치면 바로 즉각즉각 결과를 알려준다. 정규식의 결과를 눈으로 즉각 보면서 할 수 있으므로 정말 좋음!!!
+https://regexr.com/
+
+
 - What is Enum?
   * 열거형이라고도 부름. 고유한 상숫값에 연결된 기호 이름(멤버)의 집합. 열거형 내에서, 멤버를 아이덴티티로 비교할 수 있고, 열거형 자체는 이터레이트 될 수 있음.
   * 우선 import enum을 해주어야 함. 다른 언어랑 다름.
