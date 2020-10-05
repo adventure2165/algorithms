@@ -39,7 +39,11 @@ improving algorithm skills!
 	2. 반례가 확실히 보이고, 해당 반례가 조금만 수정하면 되는 것이 불확실한 경우 : 다시 새로 푸는게 낫다.
 	3. 반례가 불확실해서 어떻게 될지 모르겠다 : 시간이 부족하다면 그냥 제출부터 해놓고... 아니면 다시 새로풀자.
 - Numpy와 Pandas를 사용하는 코딩테스트도 존재한다. Numpy는 성능을 중요시하며, For문을 대신하여 Where(For + if)기능을 사용하는것이 좋다.
-
+- Python의 Time Complexity에 관련되어서 매우 유용한 사이트 - https://choisblog.tistory.com/26
+	1. 여기에 따르면 큐는 collections.queue를 사용하라 한다. 시간성능이 엄청차이난다 한다. queue.Queue도 안된다 함. 이건 멀티스레딩을 위해 만들어진 큐이고 매우 느리다 함.
+	2. 파이썬의 재귀 깊이는 기본적으로 최대 1,000. sys.setrecursionlimit으로 조절 가능하다.
+	3. int / int == float. int화(몫)은 // 사용
+	
 
 
 ## Coding Tips
